@@ -1,9 +1,3 @@
-import { FC } from "react"
+import { FC } from 'react';
 
-export const Navbar:FC = () =>{
-    return (
-        <div className="Navbar">
-            Navbar
-        </div>
-    )
-}
+export const Navbar: FC = () => <div className='Navbar'>Navbar</div>;

@@ -1,9 +1,3 @@
-import { FC } from "react"
+import { FC } from 'react';
 
-export const Greetings:FC = () =>{
-    return (
-        <div className="Greetings">
-            Greetings
-        </div>
-    )
-}
+export const Greetings: FC = () => <div className='Greetings'>Greetings</div>;

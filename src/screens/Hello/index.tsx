@@ -1,12 +1,10 @@
-import { FC } from "react"
-import { Navbar } from "../../components/Navbar"
-import { Greetings } from "../../components/Greetings"
+import { FC } from 'react';
+import { Navbar } from '../../components/Navbar';
+import { Greetings } from '../../components/Greetings';
 
-export const Hello:FC = () =>{
-    return (
-        <div className="Hello">
-            <Navbar />
-            <Greetings />
-        </div>
-    )
-}
+export const Hello: FC = () => (
+  <div className='Hello'>
+    <Navbar />
+    <Greetings />
+  </div>
+);

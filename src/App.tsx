@@ -1,12 +1,8 @@
-import { FC } from "react"
-import { Hello } from "./screens/Hello"
+import { FC } from 'react';
+import { Hello } from './screens/Hello';
 
-export const App:FC = () => {
-
-  return (
-    <div className="App">
-      <Hello />
-    </div>
-  )
-
-}
+export const App: FC = () => (
+  <div className='App'>
+    <Hello />
+  </div>
+);
